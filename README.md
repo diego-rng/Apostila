@@ -2,11 +2,20 @@
 
 Esse repositório é dedicado à primeira apostila da Renova. Para essa apostila eu decidi usar a linguagem Python.
 
+# Índice
+
+1. **[Exercícios](#Exercícios)**
+    1. [Exercício 1 - Exame Chunin](#exame-chunin)
+    2. [Exercício 2 - Continha](#continha)
+    3. [Exercício 3 - Desenhista](#desenhista)
+    4. [Exercício 4 - Incursão da Divisão de Reconhecimento](#incursão-da-divisão-de-reconhecimento)
+    
+
 
 
 # Exercícios
 ***
-## Exercício 1
+## Exame Chunin
 A Aldeia da Folha deu início ao Exame Chunin! Nele, dezenas de ninjas dividiram-se em trios para disputar dois pergaminhos. Cada equipe iniciará a etapa do exame com um pergaminho, precisando lutar para conquistar outro pergaminho, mas precisa ser um de cada tipo para que possam se classificar para a segunda fase. Baseado nisso, seu programa deverá avisar se o trio de Naruto Uzumaki, Sasuke Uchiha e Sakura Haruno foram classificados ou eliminados do Exame Chunin.
 
 ### Entrada
