@@ -14,6 +14,7 @@ A Apostila consiste de 26 exercícios.
     5. [Exercício 5 - Drone da Amazônia](#drone-da-amazônia)
     6. [Exercício 6 - Média Ponderada](#média-ponderada)
     7. [Exercício 7 - Contador de Segundos](#contador-de-segundos)
+    8. [Exercício 8 - Escolha do Campeão](#escolha-do-campeão)
 
 
 
@@ -108,11 +109,11 @@ entregas utilizando drones. Porém, ainda é necessário implementar a parte do 
 
 ### Entrada
 
-A primeira linha da entrada consiste de dois inteiros, X1 e Y1, que correspondem às coordenadas para a entrega. A segunda linha consiste de dois inteiros, X2 e Y2, correspondentes às coordenadas atuais do drone. Saiba que 1 <= X1, Y1, X2, Y2 <= 1000.
+A primeira linha da entrada consiste de dois inteiros, **X1** e **Y1**, que correspondem às coordenadas para a entrega. A segunda linha consiste de dois inteiros, **X2** e **Y2**, correspondentes às coordenadas atuais do drone. Saiba que **1 <= X1, Y1, X2, Y2 <= 1000**.
 
 ### Saída 
 
-Seu programa deve imprimir em uma única linha “Soltar pacote” (sem aspas), caso as coordenadas da entrega e do drone sejam iguais, ou “Nao soltar pacote” (sem aspas e sem til), caso as coordenadas sejam diferentes.
+Seu programa deve imprimir em uma única linha "**Soltar pacote**" (sem aspas), caso as coordenadas da entrega e do drone sejam iguais, ou "**Nao soltar pacote**" (sem aspas e sem til), caso as coordenadas sejam diferentes.
 
 ### Exemplos
 
@@ -131,7 +132,7 @@ A entrada contém uma linha com três números decimais, representando as notas 
 
 ### Saída 
 
-Imprima a média ponderada das notas do aluno com duas casas decimais após a vírgula.
+Imprima a média ponderada das notas do aluno **com duas casas decimais** após a vírgula.
 
 ### Exemplos
 
@@ -147,7 +148,7 @@ Senku é um garoto muito inteligente e gosta de contar o tempo em segundos. As v
 
 ### Entrada
 
-Será dado um número inteiro N (1 <= N <= 100000000) que representa o tempo do evento em segundos.
+Será dado um número inteiro **N (1 <= N <= 100000000)** que representa o tempo do evento em segundos.
 
 ### Saída
 
@@ -162,3 +163,26 @@ Contém o tempo dado em segundos convertido para horas, minutos e segundos, como
 |59|0h 0m 59s|
 
 ***
+## Escolha do Campeão
+
+League of Legends está cheio de campeões de vários tipos, de mentes malignas a monstros épicos. Diferentes campeões assumem diferentes papéis e usam diferentes estratégias. Lucas sempre joga LOL e gosta de variar na sua escolha de campeão, **dessa vez ele quer jogar com o campeão de maior nível de poder** dentre os que ele mais gosta.
+
+**Dado um número ‘N’, que representa a quantidade de campeões favoritos de Lucas, ajude ele a decidir qual deles tem o maior nível.**
+
+### Entrada
+
+A entrada consiste na primeira linha de um número inteiro **'N' (1 < N < 100)** que representa **o número de campeões favoritos de Lucas**. Nas próximas **'N'** linhas será fornecido em cada uma, um número inteiro **'P' (0 <= P <= 10000)** que representa **o nível de poder de cada um dos 'N' campeões.**
+
+### Saída
+
+A saída deverá **conter apenas o nível de poder do campeão mais forte**.
+
+### Exemplos 
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|3 1500 3600 500|3600|
+|7 300 5200 540 729 3567 480 4000|5200|
+
+***
+
