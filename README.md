@@ -12,6 +12,8 @@ A Apostila consiste de 26 exercícios.
     3. [Exercício 3 - Desenhista](#desenhista)
     4. [Exercício 4 - Incursão da Divisão de Reconhecimento](#incursão-da-divisão-de-reconhecimento)
     5. [Exercício 5 - Drone da Amazônia](#drone-da-amazônia)
+    6. [Exercício 6 - Média Ponderada](#média-ponderada)
+    7. [Exercício 7 - Contador de Segundos](#contador-de-segundos)
 
 
 
@@ -98,7 +100,7 @@ A saída consiste em um **número inteiro X** que representa **a quantidade de s
 |100| 16|
 |30|2|
 |20|0|
-
+***
 ## Drone da Amazônia
 
 A loja virtual e mundialmente famosa Amazônia decidiu fazer suas
@@ -118,7 +120,7 @@ Seu programa deve imprimir em uma única linha “Soltar pacote” (sem aspas), 
 |:------------|:----------|
 |5 20 5 20|Soltar pacote|
 |3 4 2 4| Nao soltar pacote|
-
+***
 ## Média Ponderada
 
 Em uma disciplina da UFBA, as notas dos alunos são compostas por 3 avaliações: duas provas online com peso 4 e um trabalho final com peso 2. Sabendo disso, escreva um programa que leia as notas dos alunos e calcule a média ponderada das notas.
@@ -138,3 +140,25 @@ Imprima a média ponderada das notas do aluno com duas casas decimais após a v�
 |8.0 7.5 9.0|8.00|
 |6.5 6.0 6.5|6.30|
 |5.0 10.0 8.0|7.60|
+***
+## Contador de segundos
+
+Senku é um garoto muito inteligente e gosta de contar o tempo em segundos. As vezes, quando precisa contar um tempo muito longo, ele pode se perder e errar a conta. Senku quer saber se contou o tempo de um determinado evento em segundos corretamente, para isso ele precisa que você converta o tempo em segundos, que ele calculou, para horas, minutos e segundos.
+
+### Entrada
+
+Será dado um número inteiro N (1 <= N <= 100000000) que representa o tempo do evento em segundos.
+
+### Saída
+
+Contém o tempo dado em segundos convertido para horas, minutos e segundos, como nos exemplos abaixo.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|4000|1h 6m 40s|
+|5200|1h 26m 40s|
+|59|0h 0m 59s|
+
+***
