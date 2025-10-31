@@ -20,6 +20,7 @@ A Apostila consiste de 26 exercícios.
     11. [Exercício 11 - Super Mario Bros](#super-mario-bros)
     12. [Exercício 12 - As Novas Missões Jedi](#as-novas-missões-jedi)
     13. [Exercício 13 - Bolinhas de Gude](#bolinhas-de-gude)
+    14. [Exercício 14 - Altura](#altura)
 
 
 
@@ -301,5 +302,32 @@ A saída consiste em imprimir a quantidade total de bolinhas de gude que Yuri ir
 |:------------|:----------|
 |10 2         |2046       |
 |5 15         |465        |
+
+***
+## Altura
+
+Três amigos estavam discutindo para saber quem era o mais alto, mas como um não queria ouvir o outro, eles não conseguiram chegar a um consenso, e por isso pediram que você escrevesse um programa que dissesse qual a altura do maior dos três amigos, dado a altura de cada um deles.
+
+### Entrada
+
+A entrada é composta por três números inteiros diferentes, A, B e C, a altura de cada um dos amigos (em centímetros) respectivamente, separados por um espaço em branco.
+
+### Saída
+
+Você deve imprimir em uma única linha a altura do maior dos três amigos.
+
+### Limites
+
+- 100 ≤ A ≤ 200
+- 100 ≤ B ≤ 200
+- 100 ≤ C ≤ 200
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|100 150 140  |150        |
+|100 137 140  |140        |
+|122 111 103  |122        |
 
 ***
