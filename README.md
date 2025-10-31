@@ -21,6 +21,7 @@ A Apostila consiste de 26 exercícios.
     12. [Exercício 12 - As Novas Missões Jedi](#as-novas-missões-jedi)
     13. [Exercício 13 - Bolinhas de Gude](#bolinhas-de-gude)
     14. [Exercício 14 - Altura](#altura)
+    15. [Exercício 15 - Cai pro x1](#cai-pro-x1)
 
 
 
@@ -329,5 +330,27 @@ Você deve imprimir em uma única linha a altura do maior dos três amigos.
 |100 150 140  |150        |
 |100 137 140  |140        |
 |122 111 103  |122        |
+
+***
+
+## Cai pro x1
+
+Lucas está jogando x1 contra seu amigo Pedro no counter strike, porém ele está com dificuldade em saber quem obteve a maior pontuação geral de abates. Considerando que eles jogaram 3 partidas, sua tarefa é elaborar um programa que dada a pontuação de Pedro e Lucas em cada uma das 3 partidas diga quem obteve o maior número de abates total.
+
+### Entrada 
+
+A entrada consiste em 3 linhas contendo 2 inteiros **'L', 'P' (1 <= 'L', 'P' <= 100)** em cada uma, sendo que **L** indica a pontuação de Lucas e **P** a pontuação de Pedro.
+
+### Saída
+
+A saída consiste em uma linha contendo a palavra “Empate”, caso os dois empatem, o nome “Pedro” caso Pedro tenha obtido uma pontuação de abates total maior que a de Lucas, ou o nome “Lucas”, caso Lucas tenha abates total maior que Pedro.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|20 32 -- 16 50 -- 100 0|Lucas  |
+|20 32 -- 14 54 -- 10 0|Pedro   |
+|16 0 -- 0 8 -- 4 12|Empate|
 
 ***
