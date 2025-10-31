@@ -23,6 +23,7 @@ A Apostila consiste de 26 exercícios.
     14. [Exercício 14 - Altura](#altura)
     15. [Exercício 15 - Cai pro x1](#cai-pro-x1)
     16. [Exercício 16 - Ajude o pequeno Kurumin](#ajude-o-pequeno-kurumin)
+    17. [Exercício 17 - Clones das Sombras](#clones-das-sombras)
 
 
 
@@ -380,3 +381,35 @@ No final do teste, Kurumin deverá informar **a soma 'S' de todos os resultados 
 |2 -- 50 -20 35 -12 -- 15 19 -10 -16| 61 anos de vida|
 
 ###### Obs: No primeiro exemplo, a primeira gaiola tem soma 50, a segunda tem soma 09 e a terceira tem soma 108. No caso da terceira gaiola, como a soma é maior ou igual a 100, então precisa refazer o cálculo dessa gaiola, subtraindo os valores dos lados dessa gaiola, ou seja, 40 - (-13) – 40 – 41, resultando -28. Portanto, o valor total será 50 + 09 – 28 para as três gaiolas, resultando em 31 anos de vida para Kurumin
+
+***
+
+## Clones das Sombras
+
+Em outro dia comum na aldeia da folha, nosso querido naruto estava tranquilo comendo seu lámen quando foi surpreendido pela tentativa de invasão de dezenas de ninjas da aldeia da areia.
+Para enfrentar tantos inimigos, a melhor arma do naruto é o jutsu clone das sombras. 
+
+Porém, o lámen não caiu muito bem e naruto não está com sua força total. **Então, ele só consegue fazer um clone por vez, e cada clone também só consegue invocar mais um único clone**, ou seja, **a quantidade de narutos só pode ser dobrada a cada jutsu.**
+
+A sua tarefa é fazer um programa que seja capaz de dizer **se será possível ter um número de narutos que seja exatamente igual ao número de inimigos.**
+
+### Entrada 
+
+A primeira linha da entrada consiste de um inteiro **'N' (1 <= N <= 5000)**, que representa **a quantidade de ninjas inimigos.**
+
+### Saída
+
+A saída consiste em uma linha contendo "**Dattebayo**", **caso seja possível ter o número de narutos exatamente igual ao número de inimigos**, ou "**Tururuuu**", **caso não seja possível.**
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|32           |Dattebayo  |
+|50           |Tururuuu   |
+|16           |Dattebayo  |
+|3            |Tururuuu   |
+|4            |Dattebayo  |
+|1            |Dattebayo  |
+
+***
