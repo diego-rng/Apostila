@@ -22,6 +22,7 @@ A Apostila consiste de 26 exercícios.
     13. [Exercício 13 - Bolinhas de Gude](#bolinhas-de-gude)
     14. [Exercício 14 - Altura](#altura)
     15. [Exercício 15 - Cai pro x1](#cai-pro-x1)
+    16. [Exercício 16 - Ajude o pequeno Kurumin](#ajude-o-pequeno-kurumin)
 
 
 
@@ -354,3 +355,28 @@ A saída consiste em uma linha contendo a palavra “Empate”, caso os dois emp
 |16 0 -- 0 8 -- 4 12|Empate|
 
 ***
+
+## Ajude o pequeno Kurumin
+
+Na aldeia do pequeno Kurumin eles prezam muito pelo intelecto de cada um da tribo. Por isso, desde cedo os índios passam por testes de iniciação de inteligência.
+
+Hoje é o dia do primeiro teste do pequeno Kurumin. Nesse teste **ele é colocado no meio de 'N' gaiolas** de bambu, uma estando dentro da outra. **Em cada gaiola, em cada um de seus lados há um número, A, B, C e D**. Para sair de cada gaiola, **Kurumin deve somar os 4 números em seus lados (A + B + C + D) e se o resultado for maior ou igual a 100, Kurumin deve refazer o cálculo para esta gaiola, subtraindo os valores dos lados (A – B – C – D) em vez de somar**.
+
+Se Kurumin não conseguir resolver todos os cálculos, a tribo deixará ele preso para sempre nas gaiolas. Por isso, ajude-o para que ele possa sair o mais rápido possível.
+
+### Entrada
+
+Na primeira linha há um inteiro **'N' (1 <= N <= 20)** que representa **a quantidade de gaiolas**. Em cada uma das próximas **'N'** linhas serão dados 4 inteiros **'A', 'B', 'C', 'D' (-20 <= A, B, C, D <= 50)**, representando **os números nos lados de cada gaiola**.
+
+### Saída
+
+No final do teste, Kurumin deverá informar **a soma 'S' de todos os resultados de cada gaiola**. Segundo o curandeiro da tribo, isso representará a quantidade de anos que Kurumin viverá entre eles. Portanto, imprima somente a frase "**S anos de vida**"
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|3 -- 15 13 12 10 -- 04 16 -14 03 -- 40 -13 40 41| 31 anos de vida|
+|2 -- 50 -20 35 -12 -- 15 19 -10 -16| 61 anos de vida|
+
+###### Obs: No primeiro exemplo, a primeira gaiola tem soma 50, a segunda tem soma 09 e a terceira tem soma 108. No caso da terceira gaiola, como a soma é maior ou igual a 100, então precisa refazer o cálculo dessa gaiola, subtraindo os valores dos lados dessa gaiola, ou seja, 40 - (-13) – 40 – 41, resultando -28. Portanto, o valor total será 50 + 09 – 28 para as três gaiolas, resultando em 31 anos de vida para Kurumin
