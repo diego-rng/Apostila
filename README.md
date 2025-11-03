@@ -29,6 +29,7 @@ A Apostila consiste de 26 exercícios.
     20. [Exercício 20 - Ajude Skywalker](#ajude-skywalker)
     21. [Exercício 21 - Energia de Aceleração](#energia-de-aceleração)
     22. [Exercício 22 - Pentatlo](#pentatlo)
+    23. [Exercício 23 - Desafio Tático](#desafio-tático)
 
 # Exercícios
 ***
@@ -534,5 +535,29 @@ A saída deve imprimir o número de inscrição do atleta seguido de sua média 
 |:------------|:----------|
 |123 5 10 5 10 10|123 8.0 |
 |230 8 8 7 7 9|230 7.8    |
+
+***
+
+## Desafio Tático
+
+Em um jogo de estratégia, os jogadores possuem um exército de soldados numerados de 1 a N. Cada soldado possui um valor de ataque e um valor de defesa. Durante uma batalha, os jogadores podem escolher uma formação de soldados para enfrentar o exército inimigo.
+
+Escreva um programa que, dado o número de jogadores, a quantidade de soldados que cada jogador possui e as informações de ataque e defesa dos soldados, calcule a soma dos valores de ataque e defesa para cada jogador.
+
+### Entrada
+
+Um número inteiro **'P'**, representando o número de jogadores.
+
+Um número inteiro **'S'**, representando a quantidade de soldados que cada jogador possui.
+
+**'P'** blocos de **'S'** linhas cada, onde cada linha contém dois números inteiros separados por espaço. O primeiro número representa o valor de ataque e o segundo número representa o valor de defesa de um soldado. Os valores de ataque e defesa estão na faixa de 1 a 100.
+
+### Saída 
+
+'N' linhas com dois números inteiros separados por espaço, representando a soma dos valores de ataque e defesa para cada jogador.
+
+### Exemplos
+
+![Um Gráfico de exemplo para o Exercício 23](/images/exer23.png)
 
 ***
