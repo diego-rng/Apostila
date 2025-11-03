@@ -25,6 +25,7 @@ A Apostila consiste de 26 exercícios.
     16. [Exercício 16 - Ajude o pequeno Kurumin](#ajude-o-pequeno-kurumin)
     17. [Exercício 17 - Clones das Sombras](#clones-das-sombras)
     18. [Exercício 18 - Entregas do Lobo Mau](#entregas-do-lobo-mau)
+    19. [Exercício 19 - Forjando Espadas](#forjando-espadas)
 
 
 # Exercícios
@@ -436,5 +437,29 @@ Na saída será apresentado o valor total pela travessia da floresta.
 |:------------|:----------|
 |60 20 -- 1 10|90         |
 |100 51 -- 2 50|250       |
+
+***
+
+## Forjando Espadas
+
+Winterfell está a todo vaporna preparação para a iminente guerra contra os White Walkers! Gendry, um exímio ferreiro, está trabalhando dia e noite para forjar os equipamentos necessários para as batalhas. Neste momento, ele foi encarregado de preparar a maior quantidade de espadas possível. Gendry dispõe de quase todos os materiais necessários sem se preocupar, devendo ser cauteloso apenas com a quantidade referente às lâminas, cabos e bainhas. Como a quantidade de guerreiros é imensa, o ferreiro não pode se dar ao luxo de desperdiçar esses materiais, portanto seguirá a proporção exata de Aço Valiriano, Madeira e Couro. Para cada espada forjada, Gendry utiliza 2 fragmentos de aço valiriano, 3 pedaços de madeira e 5 tiras de couro.
+
+Gendry tem uma certa dificuldade em realizar algumas contas de matemática simples e pediu a sua ajuda para auxiliá-lo a calcular a quantidade máxima de espadas que podem ser fabricadas a partir de uma dada quantidade de fragmentos de aço valiriano, pedaços de madeira e tiras de couro.
+
+### Entrada
+
+A entrada consiste de três números inteiros: **A**,**M**,**C**, que representam respectivamente aquantidade de fragmentos de aço valiriano, pedaços de madeira e tiras de couro.
+**(1 ≤ A, M, C ≤ 100)**
+
+### Saída
+
+Seu programa deverá imprimir a quantidade máxima de espadas que Gendry poderá forjar.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|4 6 10       |2          |
+|2 100 40     |1          |
 
 ***
