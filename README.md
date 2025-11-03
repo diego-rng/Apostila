@@ -27,6 +27,7 @@ A Apostila consiste de 26 exercícios.
     18. [Exercício 18 - Entregas do Lobo Mau](#entregas-do-lobo-mau)
     19. [Exercício 19 - Forjando Espadas](#forjando-espadas)
     20. [Exercício 20 - Ajude Skywalker](#ajude-skywalker)
+    21. [Exercício 21 - Energia de Aceleração](#energia-de-aceleração)
 
 # Exercícios
 ***
@@ -484,5 +485,28 @@ A saída será composta por apenas um número inteiro, ou seja, o total de naves
 |:------------|:----------|
 |100 10 20 30 30|10       |
 |55 1 2 3 4   |45         |
+
+***
+
+## Energia de Aceleração
+
+A teoria da relatividade explica a relação entre a velocidade, a matéria e o tempo: quanto mais próximo da velocidade da luz um objeto se move, mais devagar o tempo passa para ele; e quanto mais rápido um objeto se move (e quanto mais pesado ele é), mais energia é necessária para acelerá-lo ainda mais (Energia = Massa x Velocidade²). Graças a essas limitações, é praticamente impossível viajar na velocidade da luz. Barry Allen, o Flash, o homem mais rápido do mundo, conseguiu essa façanha graças a *Força de Aceleração*, não só eliminando o obstáculo de produção da energia necessária, como também, em diversas ocasiões, o permitindo ultrapassar a velocidade da luz (299 792 458 m/s).
+
+Escreva um código que, dado o peso atual do Flash e a velocidade em que ele está correndo, retorne a quantidade de energia que ele teria que produzir para chegar a essa velocidade caso não utilizasse a força de aceleração.
+
+### Entrada 
+
+A entrada consiste em dois valores inteiros positivos correspondentes à massa (o peso) atual do Flash em quilos (**40 ≤ P ≤ 100**) e a velocidade em que o Flash está correndo em determinado momento, em metros por segundo (**0 ≤ V ≤ 300.000.000**).
+
+### Saída 
+
+A saída corresponde a um inteiro que é a energia necessária para o Flash chegar a essa velocidade considerando as limitações descritas pela teoria da relatividade (Energia = Massa x Velocidade²).
+
+### Exemplos 
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|80 100       |800000     |
+|65 0         |0          |
 
 ***
