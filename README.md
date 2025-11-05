@@ -30,6 +30,7 @@ A Apostila consiste de 26 exercícios.
     21. [Exercício 21 - Energia de Aceleração](#energia-de-aceleração)
     22. [Exercício 22 - Pentatlo](#pentatlo)
     23. [Exercício 23 - Desafio Tático](#desafio-tático)
+    24. [Exercício 24 - Intervalos](#intervalos)
 
 # Exercícios
 ***
@@ -559,5 +560,27 @@ Um número inteiro **'S'**, representando a quantidade de soldados que cada joga
 ### Exemplos
 
 ![Um Gráfico de exemplo para o Exercício 23](/images/exer23.png)
+
+***
+
+## Intervalos
+
+Em matemática, podemos representar conjuntos, subconjuntos e soluções de equações pela notação de intervalo. Intervalo significa que o conjunto possui cada número real entre dois extremos indicados, seja numericamente ou geometricamente. Não é possível representar subconjuntos ou conjuntos que não sejam reais (ou contidos nos reais) pela notação de intervalo. Para este problema, considere apenas intervalos de números inteiros.
+
+Dizemos que um intervalo é aberto quando seus extremos não estão incluídos, por exemplo, o intervalo ]3,8[ representa o conjunto: {4,5,6,7}. Um intervalo fechado é aquele em que seus extremos são incluídos, por exemplo, o intervalo [3,8] representa o conjunto: {3,4,5,6,7,8}. Por fim, dizemos que um intervalo é semiaberto ou semifechado quando um de seus extremos são incluídos, por exemplo, o intervalo ]3,8] representa o conjunto: {4,5,6,7,8}.
+
+Considerando dois intervalos semiabertos ou semifechados, sendo o primeiro sempre no formato ]x,y] (assuma x < y) e o segundo sempre no formato [w,z[ (assuma w < z), faça um programa que, dado dois intervalos de inteiros e dado um número inteiro, informe em qual ou quais intervalos o número está, ou se não está em nenhum dos dois intervalos.
+
+### Entrada 
+
+A entrada contém três linhas: a primeira corresponde ao primeiro intervalo (]x,y]); a segunda corresponde ao segundo intervalo ([w,z[); e a terceira corresponde ao número inteiro que se quer descobrir o intervalo ao qual pertence.
+
+### Saída 
+
+A saída deve ser conforme exemplos abaixo: 
+
+### Exemplos
+
+![](images/exer24.png)
 
 ***
