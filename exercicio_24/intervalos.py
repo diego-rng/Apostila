@@ -18,6 +18,7 @@ while True:
     else: 
         print("Insira um intervalo válido!")
         print("")
+        continue
 
 while True:
     inter21, inter22 = input("Insira o segundo intervalo: ").split()
@@ -29,6 +30,7 @@ while True:
     else: 
         print("Insira um intervalo válido!")
         print("")
+        continue
         
 num = int(input("Insira o número que quer validar: "))
 print("")

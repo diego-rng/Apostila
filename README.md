@@ -31,6 +31,7 @@ A Apostila consiste de 26 exercícios.
     22. [Exercício 22 - Pentatlo](#pentatlo)
     23. [Exercício 23 - Desafio Tático](#desafio-tático)
     24. [Exercício 24 - Intervalos](#intervalos)
+    25. [Exercício 25 - Pirâmide de limonadas](#pirâmide-de-limonadas)
 
 # Exercícios
 ***
@@ -559,7 +560,7 @@ Um número inteiro **'S'**, representando a quantidade de soldados que cada joga
 
 ### Exemplos
 
-![Um Gráfico de exemplo para o Exercício 23](/images/exer23.png)
+![Um Gráfico de exemplo para o Exercício 23](images/exer23.png)
 
 ***
 
@@ -584,3 +585,19 @@ A saída deve ser conforme exemplos abaixo:
 ![](images/exer24.png)
 
 ***
+
+## Pirâmide de limonadas
+
+Sanji é um cozinheiro dedicado, que sempre busca atender os desejos da sua tripulação e hoje ele decidiu fazer algo diferente. Sanji decidiu organizar taças de limonada em uma pilha em forma de pirâmide, onde a altura é de **'N'** níveis e cada nível da pirâmide terá **'J * 2 -1' (1 <= J <= N)** taças, sendo **'J'** o nível na pirâmide, sendo **o topo como 1 e a base como 'N'**. Note que as taças de cada nível devem ser representadas pelo número (algarismo numérico) que indica seu nível **'J'** na pirâmide, ou seja, as taças da base são representadas pelo algarismo **'N'** e a taça do topo pelo algarismo **'1'**. Vamos ajudar Sanji a impressionar seus companheiros?
+
+### Entrada
+
+A entrada possui um número inteiro **'N' (1 <= N <= 9)** representando o número de níveis da pilha piramidal.
+
+### Saída
+
+A saída consiste em **'N'** linhas que representam os níveis da pirâmide **em ordem crescente**, ou seja, **nível com mais taças por último**. Cada nível **começa com 'N – J'** espaços em branco, seguidos pelos **'J * 2 - 1' algarismos** que **representam as taças** daquela fileira.
+
+### Exemplos
+
+![](images/exer25.png)
