@@ -32,6 +32,7 @@ A Apostila consiste de 26 exercícios.
     23. [Exercício 23 - Desafio Tático](#desafio-tático)
     24. [Exercício 24 - Intervalos](#intervalos)
     25. [Exercício 25 - Pirâmide de limonadas](#pirâmide-de-limonadas)
+    26. [Exercício 26 - Fortalecimento de clima](#fortalecimento-de-clima)
 
 # Exercícios
 ***
@@ -48,9 +49,9 @@ A saída será composta pela mensagem “classificado”, indicando que o trio f
 
 | **Entrada** | **Saída**    |
 |-------------|--------------|
-| A B         | classificado |
-| B B         | eliminado    |
-| A N         | eliminado    |
+| A<br> B         | classificado |
+| B<br> B         | eliminado    |
+| A<br> N         | eliminado    |
 ***
 ## Continha
 
@@ -69,8 +70,8 @@ Imprima a mensagem “Eu sou FERA nas continhas e o resultado é ”, sem as asp
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|7, 3, 15, 30, 0, 2| Eu sou FERA nas continhas e o resultado é -150.0|
-|1, 2, 10, 5, 2, 2| Eu sou FERA nas continhas e o resultado é 30.0|
+|7<br> 3<br> 15<br> 30<br> 0<br> 2| Eu sou FERA nas continhas e o resultado é -150.0|
+|1<br> 2<br> 10<br> 5<br> 2<br> 2| Eu sou FERA nas continhas e o resultado é 30.0|
 ***
 ## Desenhista 
 
@@ -195,8 +196,8 @@ A saída deverá **conter apenas o nível de poder do campeão mais forte**.
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|3 1500 3600 500|3600|
-|7 300 5200 540 729 3567 480 4000|5200|
+|3 <br>1500 <br>3600 <br>500|3600|
+|7 <br>300<br> 5200<br> 540<br> 729<br> 3567<br> 480<br> 4000|5200|
 
 ***
 ## Contabilizando Pokémons
@@ -222,8 +223,8 @@ Imprima, na ordem da entrada (K J H), o número total de pokémons de cada regi�
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|92 40 54 1 0 0| 93 40 54 |
-|12 1 0 0 2 2 | 12 3 2    |
+|92 40 54 <br>1 0 0| 93 40 54 |
+|12 1 0 <br>0 2 2 | 12 3 2    |
 
 ***
 ## Fazendo um gol
@@ -245,9 +246,9 @@ interprete os dados na perspectiva dos próprios jogadores, ou seja, para qual l
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|e e e d      | Driblado ...e o goleiro pega|
-|d d d d      | Driblado Gol|
-|e d d d      | Bloqueado |
+|e e <br> e d      | Driblado ...e o goleiro pega|
+|d d <br>d d      | Driblado Gol|
+|e d <br>d d      | Bloqueado |
 
 ***
 ## Super Mario Bros
@@ -289,8 +290,8 @@ Seu programa receberá primeiramente um inteiro **'N' (1 ≤ 'N' ≤ 100)** e um
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|3 50 --- 1500 800 1000|Yoda 1650 Luke 950 Ahsoka 1150|
-|5 1 --- 5 2 4|Yoda 10 Luke 7 Ahsoka 9|
+|3 50 <br> 1500 800 1000|Yoda 1650 Luke 950 Ahsoka 1150|
+|5 1 <br> 5 2 4|Yoda 10 Luke 7 Ahsoka 9|
 
 *** 
 ## Bolinhas de Gude
@@ -357,9 +358,9 @@ A saída consiste em uma linha contendo a palavra “Empate”, caso os dois emp
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|20 32 -- 16 50 -- 100 0|Lucas  |
-|20 32 -- 14 54 -- 10 0|Pedro   |
-|16 0 -- 0 8 -- 4 12|Empate|
+|20 32 <br> 16 50 <br> 100 0|Lucas  |
+|20 32 <br> 14 54 <br> 10 0|Pedro   |
+|16 0 <br>0 8 <br> 4 12|Empate|
 
 ***
 
@@ -383,8 +384,8 @@ No final do teste, Kurumin deverá informar **a soma 'S' de todos os resultados 
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|3 -- 15 13 12 10 -- 04 16 -14 03 -- 40 -13 40 41| 31 anos de vida|
-|2 -- 50 -20 35 -12 -- 15 19 -10 -16| 61 anos de vida|
+|3 <br> 15 13 12 10 <br> 04 16 -14 03 <br> 40 -13 40 41| 31 anos de vida|
+|2 <br> 50 -20 35 -12 <br> 15 19 -10 -16| 61 anos de vida|
 
 ###### Obs: No primeiro exemplo, a primeira gaiola tem soma 50, a segunda tem soma 09 e a terceira tem soma 108. No caso da terceira gaiola, como a soma é maior ou igual a 100, então precisa refazer o cálculo dessa gaiola, subtraindo os valores dos lados dessa gaiola, ou seja, 40 - (-13) – 40 – 41, resultando -28. Portanto, o valor total será 50 + 09 – 28 para as três gaiolas, resultando em 31 anos de vida para Kurumin
 
@@ -440,8 +441,8 @@ Na saída será apresentado o valor total pela travessia da floresta.
 
 | **Entrada** | **Saída** |
 |:------------|:----------|
-|60 20 -- 1 10|90         |
-|100 51 -- 2 50|250       |
+|<p>60 20 <br> 1 10</p>|90         |
+|100 51 <p> 2 50|250       |
 
 ***
 
@@ -601,3 +602,26 @@ A saída consiste em **'N'** linhas que representam os níveis da pirâmide **em
 ### Exemplos
 
 ![](images/exer25.png)
+
+## Fortalecimento de clima
+
+As habilidades principais dos Pokémon recebem um acréscimo de pontos de dano quando o clima está favorável. Cada pokémon está limitado a um valor de acréscimo.
+
+Seu trabalho será desenvolver um programa que, dado o limite de acréscimo de um pokémon e o valor atual de pontos de dano da sua habilidade principal, informe com quanto de pontos de dano ele vai ficar.
+
+### Entrada
+
+A primeira linha da entrada contém um valor **'N' (1 <= N <= 1000)** que representa o número de pokémon que serão fortalecidos pelo clima. Já cada uma das próximas **'N'** linhas contém o valor **'P' (1 <= P <= 1000)** de pontos de dano do ataque principal de um pokémon e o seu valor **'M' (0 <= M <= 1000)** de acréscimo.
+
+### Saída
+
+A saída é composta de 'N' linhas, cada uma representando o valor final de pontos de dano de cada linha da entrada.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|3  <br>105 20<br>122 22<br>140 50|125<br>144<br>190|
+|2 <br> 200 2<br>105 0|202<br>105|
+
+***
