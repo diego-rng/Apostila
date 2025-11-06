@@ -7,35 +7,39 @@ A Apostila consiste de 26 exercícios.
 # Índice
 
 1. **[Exercícios](#Exercícios)**
-    1. [Exercício 1 - Exame Chunin](#exame-chunin)
-    2. [Exercício 2 - Continha](#continha)
-    3. [Exercício 3 - Desenhista](#desenhista)
-    4. [Exercício 4 - Incursão da Divisão de Reconhecimento](#incursão-da-divisão-de-reconhecimento)
-    5. [Exercício 5 - Drone da Amazônia](#drone-da-amazônia)
-    6. [Exercício 6 - Média Ponderada](#média-ponderada)
-    7. [Exercício 7 - Contador de Segundos](#contador-de-segundos)
-    8. [Exercício 8 - Escolha do Campeão](#escolha-do-campeão)
-    9. [Exercício 9 - Contabilizando Pokémons](#contabilizando-pokémons)
-    10. [Exercício 10 - Fazendo um gol](#fazendo-um-gol)
-    11. [Exercício 11 - Super Mario Bros](#super-mario-bros)
-    12. [Exercício 12 - As Novas Missões Jedi](#as-novas-missões-jedi)
-    13. [Exercício 13 - Bolinhas de Gude](#bolinhas-de-gude)
-    14. [Exercício 14 - Altura](#altura)
-    15. [Exercício 15 - Cai pro x1](#cai-pro-x1)
-    16. [Exercício 16 - Ajude o pequeno Kurumin](#ajude-o-pequeno-kurumin)
-    17. [Exercício 17 - Clones das Sombras](#clones-das-sombras)
-    18. [Exercício 18 - Entregas do Lobo Mau](#entregas-do-lobo-mau)
-    19. [Exercício 19 - Forjando Espadas](#forjando-espadas)
-    20. [Exercício 20 - Ajude Skywalker](#ajude-skywalker)
-    21. [Exercício 21 - Energia de Aceleração](#energia-de-aceleração)
-    22. [Exercício 22 - Pentatlo](#pentatlo)
-    23. [Exercício 23 - Desafio Tático](#desafio-tático)
-    24. [Exercício 24 - Intervalos](#intervalos)
-    25. [Exercício 25 - Pirâmide de limonadas](#pirâmide-de-limonadas)
-    26. [Exercício 26 - Fortalecimento de clima](#fortalecimento-de-clima)
+    1. [Apostila 1](#apostila-1)
+        1. [Exercício 1 - Exame Chunin](#exame-chunin)
+        2. [Exercício 2 - Continha](#continha)
+        3. [Exercício 3 - Desenhista](#desenhista)
+         4. [Exercício 4 - Incursão da Divisão de Reconhecimento](#incursão-da-divisão-de-reconhecimento)
+        5. [Exercício 5 - Drone da Amazônia](#drone-da-amazônia)
+        6. [Exercício 6 - Média Ponderada](#média-ponderada)
+        7. [Exercício 7 - Contador de Segundos](#contador-de-segundos)
+        8. [Exercício 8 - Escolha do Campeão](#escolha-do-campeão)
+        9. [Exercício 9 - Contabilizando Pokémons](#contabilizando-pokémons)
+        10. [Exercício 10 - Fazendo um gol](#fazendo-um-gol)
+        11. [Exercício 11 - Super Mario Bros](#super-mario-bros)
+        12. [Exercício 12 - As Novas Missões Jedi](#as-novas-missões-jedi)
+        13. [Exercício 13 - Bolinhas de Gude](#bolinhas-de-gude)
+        14. [Exercício 14 - Altura](#altura)
+        15. [Exercício 15 - Cai pro x1](#cai-pro-x1)
+        16. [Exercício 16 - Ajude o pequeno Kurumin](#ajude-o-pequeno-kurumin)
+        17. [Exercício 17 - Clones das Sombras](#clones-das-sombras)
+        18. [Exercício 18 - Entregas do Lobo Mau](#entregas-do-lobo-mau)
+        19. [Exercício 19 - Forjando Espadas](#forjando-espadas)
+        20. [Exercício 20 - Ajude Skywalker](#ajude-skywalker)
+        21. [Exercício 21 - Energia de Aceleração](#energia-de-aceleração)
+        22. [Exercício 22 - Pentatlo](#pentatlo)
+        23. [Exercício 23 - Desafio Tático](#desafio-tático)
+        24. [Exercício 24 - Intervalos](#intervalos)
+        25. [Exercício 25 - Pirâmide de limonadas](#pirâmide-de-limonadas)
+        26. [Exercício 26 - Fortalecimento de clima](#fortalecimento-de-clima)
 
 # Exercícios
 ***
+
+# Apostila 1
+
 ## Exame Chunin
 A Aldeia da Folha deu início ao Exame Chunin! Nele, dezenas de ninjas dividiram-se em trios para disputar dois pergaminhos. Cada equipe iniciará a etapa do exame com um pergaminho, precisando lutar para conquistar outro pergaminho, mas precisa ser um de cada tipo para que possam se classificar para a segunda fase. Baseado nisso, seu programa deverá avisar se o trio de Naruto Uzumaki, Sasuke Uchiha e Sakura Haruno foram classificados ou eliminados do Exame Chunin.
 
@@ -625,3 +629,27 @@ A saída é composta de 'N' linhas, cada uma representando o valor final de pont
 |2 <br> 200 2<br>105 0|202<br>105|
 
 ***
+
+# Apostila 2
+
+## Campo de Abóboras
+
+Hagrid está tendo um dia cheio com Bicuço e pediu ajuda a Harry e Ron. Eles precisam ajudá-lo a coletar abóboras. **A plantação é grande e para acelerar o trabalho, Hagrid pede que Harry fique responsável pela colheita em uma determinada linha, começando na esquerda e indo até o fim dela na direita. Da mesma forma, Hagrid pede que Ron colha as abóboras em outra linha, porém agora, Ron começa em cima e vai até o fim dela na parte de baixo da plantação**.
+
+Hagrid quer saber ao fim da tarefa qual dos dois coletou mais abóboras, levando-se em consideração seu peso. **Só tome cuidado com o ponto de intersecção entre as duas linhas que Harry e Ron irão coletar as abóboras. Somente um deles fica com a abóbora que está lá, ela é do primeiro que lá chegar, ou seja, ela pertence àquele que estiver mais próximo dela a partir do ponto de início de sua colheita, e se der empate na distância, a abóbora fica com Ron**.
+
+### Entrada 
+
+Seu programa receberá primeiramente um inteiro **'N' (1 ≤ 'N' ≤ 100)**, representando o tamanho da plantação de abóboras, que é um campo de proporção NxN (N linhas horizontais por N linhas verticais). A seguir serão dadas **'N'** linhas, onde em cada uma serão dados **'N'** inteiros **'P' (1 <= P <= 100)**, que representam o peso de cada abóbora no campo. Há uma abóbora em cada posição do campo NxN. Por fim, a última linha da entrada contêm as linhas **'X'** e **'Y' (0 <= X,Y < N)** que Harry e Ron irão coletar, respectivamente. **Cuidado que a linha de Ron na verdade se trata de uma coluna na matriz da plantação**.
+
+### Saída 
+
+Imprima o peso total da colheita de Harry e a seguir, na linha de baixo, imprima o peso total da colheita de Ron, como nos exemplos abaixo.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|4<br>1 2 3 4<br>5 6 7 8<br>1 3 5 7<br>2 4 6 8<br>1 2|Harry 19<br>Ron 21 <br> <br> <br> <br> <br> |
+|4<br>1 2 3 4<br>5 6 7 8<br>1 3 5 7<br>2 4 6 8<br>2 1|Harry 16<br>Ron 12 <br> <br> <br> <br> <br> |
+|3<br> 1 2 3 <br>4 5 6<br>7 8 9<br>1 1|Harry 10<br>Ron 15 <br> <br> <br> <br> |
