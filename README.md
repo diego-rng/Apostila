@@ -1,8 +1,10 @@
-# Apostila No. 1
+# Apostilas
 
-Esse repositório é dedicado à primeira apostila da Renova. Para essa apostila eu decidi usar a linguagem Python.
+Esse repositório é dedicado às apostilas da Renova. Para esse repositório, eu decidi usar a linguagem Python.
 
-A Apostila consiste de 26 exercícios.
+A apostila 1 consiste de 26 exercícios.
+
+A apostila 2 consiste de 10 exercícios.
 
 # Índice
 
