@@ -1,11 +1,11 @@
-print("---------------------------------")
+print("---------------------------")
 print("     Campo de Abóboras     ")
-print("---------------------------------")
+print("---------------------------")
 print("")
 print("Seu programa receberá primeiramente um inteiro 'N' (1 ≤ 'N' ≤ 100), representando o tamanho da plantação de abóboras, que é um campo de proporção NxN (N linhas horizontais por N linhas verticais). A seguir serão dadas 'N' linhas, onde em cada uma serão dados 'N' inteiros 'P' (1 <= P <= 100), que representam o peso de cada abóbora no campo. Há uma abóbora em cada posição do campo NxN. Por fim, a última linha da entrada contêm as linhas 'X' e 'Y' (0 <= X,Y < N) que Harry e Ron irão coletar, respectivamente. Cuidado que a linha de Ron na verdade se trata de uma coluna na matriz da plantação.")
 print("")
 print("Imprima o peso total da colheita de Harry e a seguir, na linha de baixo, imprima o peso total da colheita de Ron, como nos exemplos da Apostila.")
-print("---------------------------------")
+print("---------------------------")
 print("")
 
 # Basic number validation, you will see this in the start of basically every single one of my exercises here.

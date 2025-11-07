@@ -655,3 +655,32 @@ Imprima o peso total da colheita de Harry e a seguir, na linha de baixo, imprima
 |4<br>1 2 3 4<br>5 6 7 8<br>1 3 5 7<br>2 4 6 8<br>1 2|Harry 19<br>Ron 21 <br> <br> <br> <br> <br> |
 |4<br>1 2 3 4<br>5 6 7 8<br>1 3 5 7<br>2 4 6 8<br>2 1|Harry 16<br>Ron 12 <br> <br> <br> <br> <br> |
 |3<br> 1 2 3 <br>4 5 6<br>7 8 9<br>1 1|Harry 10<br>Ron 15 <br> <br> <br> <br> |
+
+***
+
+## Faxina
+
+Você decidiu se livrar dos livros em sua casa. Seu critério para decidir se um livro vai ser doado ou não é a quantidade de consoantes em seu título. Caso o título possua mais do que T consoantes, ele será doado; caso contrário, ele ficará em sua estante.
+
+Sua tarefa é determinar, dados os títulos dos livros, quais serão doados.
+
+### Entrada
+
+A primeira linha da entrada contém dois inteiros N e T, respectivamente o número de livros na estante e o número máximo de consoantes permitidas no título de cada livro. As próximas N linhas contêm os títulos dos livros, que tem no máximo 20 símbolos. Estes são apenas letras minúsculas e espaços.
+
+### Saída 
+
+Para cada livro, seu programa deve imprimir 0 caso o livro deva ser doado e 1 caso ele fique na estante, seguidos de um fim de linha.
+
+###### Limites 
+
+* 1 ≤ N ≤ 105;
+* 1 ≤ T ≤ 20;
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|3 4<br>harry potter<br>senhor dos aneis<br>aleph|0<br>0<br>1|
+
+***
