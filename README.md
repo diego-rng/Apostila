@@ -36,7 +36,11 @@ A apostila 2 consiste de 10 exercícios.
         24. [Exercício 24 - Intervalos](#intervalos)
         25. [Exercício 25 - Pirâmide de limonadas](#pirâmide-de-limonadas)
         26. [Exercício 26 - Fortalecimento de clima](#fortalecimento-de-clima)
-
+    2. [Apostila 2](#apostila-2)
+        1. [Exercício 1 - Campo de Abóboras](#campo-de-abóboras)
+        2. [Exercício 2 - Faxina](#faxina)
+        3. [Exercício 3 - Torre Xadrez](#torre-xadrez)
+        
 # Exercícios
 ***
 
@@ -85,11 +89,11 @@ Mário cansou de pular em cogumelos, tubulações e realizar saltos em pirâmide
 
 ### Entrada 
 
-A entrada consiste em um número inteiro ‘P’ (1 <= P <= 20), que representa a altura que a pirâmide terá.
+A entrada consiste em um número inteiro 'P' (1 <= P <= 20), que representa a altura que a pirâmide terá.
 
 ### Saída
 
-Na saída você deverá imprimir a pirâmide com o caractere ‘#’, conforme a quantidade de linhas solicitadas, e nos locais vagos, usar o caracter ‘>’, como no exemplo abaixo.
+Na saída você deverá imprimir a pirâmide com o caractere '#', conforme a quantidade de linhas solicitadas, e nos locais vagos, usar o caracter '>', como no exemplo abaixo.
 
 ### Exemplos 
 
@@ -109,7 +113,7 @@ Sabendo que o tempo máximo de exposição das tropas nessa missão é de 1 hora
 
 ### Entrada
 
-A entrada possui **um único número inteiro ‘N’ (20 ≤ N ≤ 200)**, que representa a **quantidade de titãs na região**, e **será sempre um múltiplo de 5**.
+A entrada possui **um único número inteiro 'N' (20 ≤ N ≤ 200)**, que representa a **quantidade de titãs na região**, e **será sempre um múltiplo de 5**.
 
 ### Saída
 
@@ -188,7 +192,7 @@ Contém o tempo dado em segundos convertido para horas, minutos e segundos, como
 
 League of Legends está cheio de campeões de vários tipos, de mentes malignas a monstros épicos. Diferentes campeões assumem diferentes papéis e usam diferentes estratégias. Lucas sempre joga LOL e gosta de variar na sua escolha de campeão, **dessa vez ele quer jogar com o campeão de maior nível de poder** dentre os que ele mais gosta.
 
-**Dado um número ‘N’, que representa a quantidade de campeões favoritos de Lucas, ajude ele a decidir qual deles tem o maior nível.**
+**Dado um número 'N', que representa a quantidade de campeões favoritos de Lucas, ajude ele a decidir qual deles tem o maior nível.**
 
 ### Entrada
 
@@ -239,7 +243,7 @@ O jogo favorito de Lucas é Bomba Patch. Atualmente, ele está desenvolvendo uma
 
 ### Entrada 
 
-A entrada é composta por apenas duas linhas contendo dois caracteres em cada. Na primeira linha temos "z" e "g", sendo "z" a direção que o zagueiro irá para tentar bloquear o drible do atacante e "g" a direção que o goleiro irá tentar defender o chute do atacante. A segunda linha contém dois caracteres "d" e "c", que são respectivamente, a direção que o atacante irá tentar driblar o zagueiro, e se passar pelo zagueiro, a direção que o atacante irá chutar para o gol. Saiba que os valores possíveis para “z”, ”g”, “d” e “c” são esquerda ou direita, representados pelos caracteres ‘e’ e ‘d’, respectivamente.
+A entrada é composta por apenas duas linhas contendo dois caracteres em cada. Na primeira linha temos "z" e "g", sendo "z" a direção que o zagueiro irá para tentar bloquear o drible do atacante e "g" a direção que o goleiro irá tentar defender o chute do atacante. A segunda linha contém dois caracteres "d" e "c", que são respectivamente, a direção que o atacante irá tentar driblar o zagueiro, e se passar pelo zagueiro, a direção que o atacante irá chutar para o gol. Saiba que os valores possíveis para “z”, ”g”, “d” e “c” são esquerda ou direita, representados pelos caracteres 'e' e 'd', respectivamente.
 
 ### Saída
 
@@ -282,7 +286,7 @@ A saída consiste em uma única linha. Caso você não tenha encontrado todas as
 
 Há muito tempo atrás em uma galáxia muito muito distante, por mais de mil gerações, os Cavaleiros Jedi foram os guardiões da paz e da justiça na Velha República. A Ordem Jedi era uma ordem hierárquica indo desde Jedi Iniciado, Jedi Padawan, até o Grande Mestre, sendo Yoda um exemplo.
 
-Para permitir um bom aprendizado dos poderes, várias missões eram realizadas, **aumentando o XP do Jedi em ‘X’ pontos caso este cumprisse a missão**. Assim, várias missões serão atribuídas aos Jedi e você foi escolhido para ajudar. Lembre-se que a força está com você, Padawan.
+Para permitir um bom aprendizado dos poderes, várias missões eram realizadas, **aumentando o XP do Jedi em 'X' pontos caso este cumprisse a missão**. Assim, várias missões serão atribuídas aos Jedi e você foi escolhido para ajudar. Lembre-se que a força está com você, Padawan.
 
 ### Entrada
 
@@ -682,5 +686,27 @@ Para cada livro, seu programa deve imprimir 0 caso o livro deva ser doado e 1 ca
 | **Entrada** | **Saída** |
 |:------------|:----------|
 |3 4<br>harry potter<br>senhor dos aneis<br>aleph|0<br>0<br>1|
+
+***
+
+## Torre Xadrez
+
+Xadrez é sem dúvida um dos jogos mais famosos e que exige grande capacidade intelectual e estratégica. São várias peças que possuem diferentes tipos de movimentos no tabuleiro. A torre, por exemplo, move-se em uma linha ou em uma coluna, como pode ser observado na figura acima, onde as posições marcadas com um X destacam aquelas onde a torre pode ir. Havendo uma peça inimiga a sua frente, esta peça pode ser derrotada pela torre, é o caso do peão na figura acima. Porém, se houver uma pela aliada a frente, a torre poderá se mover até a posição imediatamente anterior a peça aliada, é o caso do cavalo na figura acima. 
+
+Sendo assim, você foi escolhido para desenvolver um programa que diz quantas peças inimigas a torre poderá possivelmente derrotar, a partir de uma posição X, Y no tabuleiro que indica onde a torre está.
+
+### Entrada
+
+A entrada será primeiramente uma grade de tamanho **'8 x 8'**, representando o tabuleiro de xadrez. Cada uma das **'8'** linhas do tabuleiro possuirá **'8'** inteiros **'Q' (0 <= Q <= 2)**, separados por espaço. Portanto, cada posição do tabuleiro possuirá 3 valores possíveis: **0** – para indicar que naquela posição não tem peça; **1** – para indicar uma peça aliada; **2** – para indicar que naquela posição há uma peça inimiga. Por fim, serão dados dois inteiros **'X'** e **'Y' (0 <= X, Y <= 7)**, representando a coordenada inicial da torre, sendo que **'X'** representa uma linha e **'Y'** representa uma coluna. Além disso, na posição **X – Y** terá o valor **1**, pois representa a própria torre.
+
+### Saída 
+
+Você deverá imprimir a quantidade de peças inimigas no caminho da torre.
+
+### Exemplo
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|0 0 0 0 0 0 0 0<br>0 0 0 0 0 0 0 0<br><mark style= "background-color: #e56b57">**2**</mark> 0 <mark style= "background-color: lightgreen">**1**</mark> 1 2 0 0 0<br>0 0 0 0 0 0 0 0<br>0 0 0 0 0 0 0  0<br>0 0 0 0 0 0 0 0<br>0 0 <mark style= "background-color: #e56b57">**2**</mark> 0 0 0 0 0<br>0 0 2 0 0 0 0 0<br>2 2|2<br><br><br><br><br><br><br><br><br>|
 
 ***
