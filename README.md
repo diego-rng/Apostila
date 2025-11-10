@@ -40,6 +40,7 @@ A apostila 2 consiste de 10 exercícios.
         1. [Exercício 1 - Campo de Abóboras](#campo-de-abóboras)
         2. [Exercício 2 - Faxina](#faxina)
         3. [Exercício 3 - Torre Xadrez](#torre-xadrez)
+        4. [Exercício 4 - Palíndromos](#palíndromos)
         
 # Exercícios
 ***
@@ -708,5 +709,31 @@ Você deverá imprimir a quantidade de peças inimigas no caminho da torre.
 | **Entrada** | **Saída** |
 |:------------|:----------|
 |0 0 0 0 0 0 0 0<br>0 0 0 0 0 0 0 0<br><mark style= "background-color: #e56b57">**2**</mark> 0 <mark style= "background-color: lightgreen">**1**</mark> 1 2 0 0 0<br>0 0 0 0 0 0 0 0<br>0 0 0 0 0 0 0  0<br>0 0 0 0 0 0 0 0<br>0 0 <mark style= "background-color: #e56b57">**2**</mark> 0 0 0 0 0<br>0 0 2 0 0 0 0 0<br>2 2|2<br><br><br><br><br><br><br><br><br>|
+
+***
+
+## Palíndromos
+
+Luiz e seus colegas estão participando de uma série de jogos na aula de português em sua escola. Em um dos jogos, é dado uma palavra para cada um deles, e eles precisam dizer se ela é um palíndromo ou não. Uma palavra é um palíndromo se ela é a mesma palavra lida de trás pra frente. Por exemplo “arara”, “osso”, “ralar”, etc. Luiz deseja vencer o jogo mesmo que seja trapaceando, e pediu a você que fizesse um programa que respondesse se uma palavra era um palíndromo ou não.
+
+### Entrada
+
+A primeira linha da entrada possui uma palavra S, contendo apenas letras minúsculas, a palavra dada por Luiz.
+
+### Saída 
+
+A saída deve conter numa única linha a palavra “Sim”, caso S seja um palíndromo, e “Nao” caso “S” não seja um palíndromo.
+
+###### Limites: 
+
+* 1 ≤ S ≤ 100
+
+### Exemplos 
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|arara        |Sim        |
+|reviver      |Sim        |
+|rezar        |Nao        |
 
 ***
