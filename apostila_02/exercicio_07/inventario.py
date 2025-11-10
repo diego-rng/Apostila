@@ -9,10 +9,11 @@ print("----------------------------")
 print("")
 
 inv = []
+var = False
 
-for h in range(1000):
+while var == False:
     item = str(input())
-    if item == "fim": break
+    if item == "fim": var = True
     else: inv.append(item)
 
 needItem = input("")
