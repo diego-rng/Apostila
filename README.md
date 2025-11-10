@@ -44,6 +44,7 @@ A apostila 2 consiste de 10 exercícios.
         5. [Exercício 5 - Xeroque Rolmes](#xeroque-rolmes)
         6. [Exercício 6 - Caçando Pokémons](#caçando-pokémons)
         7. [Exercício 7 - Inventário Caótico](#inventário-caótico)
+        8. [Exercício 8 - Vamos jogar um jogo](#vamos-jogar-um-jogo)
         
 # Exercícios
 ***
@@ -805,5 +806,29 @@ Deverá ser impresso **"item encontrado"** caso o item esteja no inventário ou 
 |:------------|:----------|
 |Storm Ruler<br>Scholar's Candlestick<br>Broadsword<br>Anri's Straight Sword<br>Sunlight Straight Sword<br>Gael's Greatsword<br>Ringed Knight Paired Greatswords<br>fim<br>Carthus Shotel|voce ainda nao descobriu este item<br><br><br><br><br><br><br><br><br>|
 |Frayed Blade<br>Follower Sabre<br>Sellsword Twinblades<br>Harald Curved Greatsword<br>Thrall Axe<br>Butcher Axe<br>fim<br>Sellsword Twinblades|item encontrado<br><br><br><br><br><br><br><br>|
+
+***
+
+## Vamos jogar um jogo
+
+E agora?!?! Você foi capturado por Jigsaw em mais um de seus planos contra aqueles que ele julga não valorizar a própria vida! Para provar que Jigsaw está enganado, você deverá resolver um de seus peculiares enigmas e assim garantir a sua liberdade (talvez). Você encontrou uma gravação que explica passo a passo o que deverá ser feito. Em sua sala, haverá um papel com uma frase acompanhada de um número e uma palavra. O que Jigsaw deseja é muito simples: **que você diga se a quantidade de ocorrências daquela palavra na frase é a mesma da escrita no papel**. Caso seja, você deverá dizer "**SIM!**", do contrário, deverá falar "**NAO!**". Um detalhe essencial é que **todas as letras são minúsculas** e **Jigsaw ignora espaços em branco na frase no momento de contar as ocorrências da palavra.**
+
+Para sua sorte, você encontrou um computador velho na sala onde está, e como é conhecido por ser viciado em programar, decidiu desenvolver um programa que o auxiliasse (e, quem sabe, outros futuros prisioneiros) nesse enigma. Portanto, você deverá computar a frase solicitada por Jigsaw e posteriormente avaliar se existe a quantidade '**Q**' de ocorrências de uma dada palavra **P**.
+
+### Entrada
+
+A primeira linha da entrada consiste de uma string **S**, que indica a frase a ser avaliada. A segunda linha contém um inteiro **'Q' (1 <= Q <= 30)**, informando a quantidade de ocorrências, seguido de uma palavra **P**, que indica o que deve ser detectado na frase **S**.
+
+### Saída
+
+Seu programa deverá imprimir a quantidade de ocorrências de P em uma linha. Na outra, deverá imprimir "SIM!" caso essa quantidade seja igual à 'Q' e, caso contrário, deverá imprimir "NAO!".
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|eu quero jogar um jogo jogando limpo<br>3 jog|3<br>SIM!|
+|xhuisyd xnzyxe nxnzzz zx x ify zzuzzzz z zjx<br>4 zz|6<br> NAO!|
+|eu adoro sao joao e eu amo suas comidas<br> 3 ua|3<br> SIM!|
 
 ***
