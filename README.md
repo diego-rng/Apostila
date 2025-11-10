@@ -41,6 +41,7 @@ A apostila 2 consiste de 10 exercícios.
         2. [Exercício 2 - Faxina](#faxina)
         3. [Exercício 3 - Torre Xadrez](#torre-xadrez)
         4. [Exercício 4 - Palíndromos](#palíndromos)
+        5. [Exercício 5 - Xeroque Rolmes](#xeroque-rolmes)
         
 # Exercícios
 ***
@@ -735,5 +736,30 @@ A saída deve conter numa única linha a palavra “Sim”, caso S seja um palí
 |arara        |Sim        |
 |reviver      |Sim        |
 |rezar        |Nao        |
+
+***
+
+## Xeroque Rolmes
+
+Xeroque Rolmes é um primo distante de um detetive renomado e agora quer seguir os passos do seu primo. Em seu primeiro caso, uma testemunha lhe disse que na casa do suspeito existe um cofre com uma pasta com várias provas de seus vários crimes. Ao investigar o lugar, Xeroque Rolmes percebe que do lado do cofre existem 6 pedaços de papel colados na parede com palavras escritas e, mais que isso, ele descobriu que a quantidade de letras de cada palavra corresponde a um dígito da senha do cofre.
+
+### Entrada 
+
+A entrada é composta por 6 linhas, cada linha contém uma palavra encontrada.
+
+### Saída
+
+A saída é composta por uma linha com a senha do cofre.
+
+###### Limites
+
+* **1 ≤ N ≤ 10**
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|sh<br>embhtots<br>m<br>qgexyzbcu<br>wwhzzw<br>rdfxs|281965|
+|a<br>a<br>yni<br>xbzaxh<br>lyg<br>q|113631|
 
 ***
