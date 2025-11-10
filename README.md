@@ -42,6 +42,8 @@ A apostila 2 consiste de 10 exercícios.
         3. [Exercício 3 - Torre Xadrez](#torre-xadrez)
         4. [Exercício 4 - Palíndromos](#palíndromos)
         5. [Exercício 5 - Xeroque Rolmes](#xeroque-rolmes)
+        6. [Exercício 6 - Caçando Pokémons](#caçando-pokémons)
+        7. [Exercício 7 - Inventário Caótico](#inventário-caótico)
         
 # Exercícios
 ***
@@ -785,3 +787,23 @@ A saída consiste em 1 linha contendo a frase **"Ash pegou 'Q' pokemon"** onde *
 
 ***
 
+## Inventário Caótico
+
+Jônatas da Silva após várias horas jogando Dark Souls III percebeu que seu inventário está caótico e não consegue encontrar seus itens. **Seu objetivo é identificar se um item está no inventário.**
+
+### Entrada
+
+A entrada cosistirá de várias linhas, onde em cada uma teremos **uma string representando o nome de determinado item**. **A entrada com o nome dos itens termina** quando for digitado **a palavra "fim"**. Por fim, **será dado o nome do item que Jônatas quer saber se está no inventário** dele.
+
+### Saída
+
+Deverá ser impresso **"item encontrado"** caso o item esteja no inventário ou **"voce ainda nao descobriu este item"**, caso contrário.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|Storm Ruler<br>Scholar's Candlestick<br>Broadsword<br>Anri's Straight Sword<br>Sunlight Straight Sword<br>Gael's Greatsword<br>Ringed Knight Paired Greatswords<br>fim<br>Carthus Shotel|voce ainda nao descobriu este item<br><br><br><br><br><br><br><br><br>|
+|Frayed Blade<br>Follower Sabre<br>Sellsword Twinblades<br>Harald Curved Greatsword<br>Thrall Axe<br>Butcher Axe<br>fim<br>Sellsword Twinblades|item encontrado<br><br><br><br><br><br><br><br>|
+
+***
