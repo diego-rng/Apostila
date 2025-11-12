@@ -8,6 +8,35 @@ A apostila 2 consiste de 10 exercícios.
 
 # Índice
 
+<head>
+    <style>
+        .table-style-1 th{
+            font-family: arial;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+        }         
+        .table-style-1 td {
+            font-family: arial;
+            font-weight: normal;
+            font-size: 16px;
+            text-align: left;
+        }
+        .table-style-2 th {
+            font-family: arial;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+        }
+        .table-style-2 td {
+            font-family: 'Courier New', courier;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+        }
+    </style>
+</head>
+
 1. **[Exercícios](#Exercícios)**
     1. [Apostila 1](#apostila-1)
         1. [Exercício 1 - Exame Chunin](#exame-chunin)
@@ -46,6 +75,7 @@ A apostila 2 consiste de 10 exercícios.
         7. [Exercício 7 - Inventário Caótico](#inventário-caótico)
         8. [Exercício 8 - Vamos jogar um jogo](#vamos-jogar-um-jogo)
         9. [Exercício 9 - Oxi véi, cadê a praia?](#oxi-véi-cadê-a-praia)
+        10. [Exercício 10 - Batalha de Yavin](#batalha-de-yavin)
         
 # Exercícios
 ***
@@ -849,20 +879,59 @@ O programa deve imprimir o mapa corrigido, transformando em praia 'p', todo peda
 
 ### Exemplos
 
-<style>
-    th{
-        font-family: arial
-    }
-    table {
-        font-family: 'Courier New', courier;
-        font-size: 16px;
-        font-weight: bold
-    }
-</style>
+<table class="table-style-2">
+    <thead>
+        <tr>
+            <th>Entrada</th>
+            <th>Saída</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>* * * * * * * * * * <br>* * t t t t * * * * <br>* t t t t t t * * * <br>* * * * t t t t t * <br>* * * * * t t t t * <br>* * * * * t t t * * <br>* * * * t t t t * * <br>t t t t t t t t t * <br>t t t t t t t t * * <br>t t t t t * * * * *</td>
+            <td>* * * * * * * * * * <br>* * p p p p * * * * <br>* p p p t t p * * * <br>* * * * p t t p p * <br>* * * * * p t t p * <br>* * * * * p t p * * <br>* * * * p t t p * * <br>p p p p t t t t p * <br>t t t t t p p p * * <br>t t t t p * * * * *</td>
+        </tr>
+    </tbody>
+</table>
 
-| **Entrada** | **Saída** |
-|:------------|:----------|
-|* * * * * * * * * * <br>* * t t t t * * * * <br>* t t t t t t * * * <br>* * * * t t t t t * <br>* * * * * t t t t * <br>* * * * * t t t * * <br>* * * * t t t t * * <br>t t t t t t t t t * <br>t t t t t t t t * * <br>t t t t t * * * * *|* * * * * * * * * * <br>* * p p p p * * * * <br>* p p p t t p * * * <br>* * * * p t t p p * <br>* * * * * p t t p * <br>* * * * * p t p * * <br>* * * * p t t p * * <br>p p p p t t t t p * <br>t t t t t p p p * * <br>t t t t p * * * * *|
-|t * * * * * * * * t <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>t * * * * * * * * t|p * * * * * * * * p<br>* p p p p p p p p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p p p p p p p p * <br>p * * * * * * * * p|
 
 ***
+
+## Batalha de Yavin 
+
+A Batalha de Yavin, a maior batalha da Guerra Civil Galáctica, resultou na destruição da primeira Estrela da Morte. Os dois lados do confronto foram o Império Galáctico e a Aliança Rebelde. A Estrela da Morte chegou no sistema escoltada por uma frota constituída por diversas naves, dentre elas, as velozes Tie Fighters. O Comando Rebelde estava desacreditado. Com quase todos os pilotos destruídos, o destino da batalha estava nas mãos de um jovem piloto, mas este trazia consigo uma nova esperança, afinal, esse jovem era Luke Skywalker. Ele sabia que poderia usar a dobra espacial e o poder da força para se teletransportar com sua nave muito mais rápido de um lugar para outro no espaço e, assim, conseguir destruir o máximo possível de naves inimigas.
+
+Dadas as coordenadas de cada nave inimiga e de cada teleporte de Luke, diga quantas naves ele consegue destruir. Para cada coordenada onde Luke teleporta, ele dá apenas um tiro de Prótons que é capaz de destruir a primeira nave que esteja em sua frente. No exemplo ao lado, ao teleportar para a posição marcada como (2), ele atira e destrói somente a nave que está em sua frente. Já ao teleportar para a posição (3), ele atira mas não acerta nenhuma nave.
+
+### Entrada
+
+A primeira linha da entrada possui um inteiro 'N' (3 ≤ N ≤ 100), indicando que a matriz que representa o espaço possui dimensões NxN, e um inteiro 'M' (1 ≤ M ≤ 1000), indicando o número de teleportes realizados por Luke. As próximas 'N' linhas possuem 'N' inteiros em cada uma, cujos valores podem ser 0 (se não existe nave naquele quadrante) ou 1 (se existe uma nave naquele quadrante). Nas próximas 'M' linhas serão dadas as coordenadas inteiras (L – linha C - coluna) de cada teleporte de Luke, um por linha. É garantido que Luke não aparecerá numa coordenada que possui uma nave, já que dois corpos não podem ocupar o mesmo lugar no espaço ao mesmo tempo. Os teleportes ocorrerão somente dentro do espaço dado.
+
+### Saída
+
+A saída consiste de apenas um inteiro que é o número de naves destruídas por Luke.
+
+### Exemplos
+
+<table class="table-style-2">
+    <thead>
+        <tr>
+            <th>Entrada</th>
+            <th>Saída</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8 3<br>0 0 0 0 0 0 0 1<br>1 0 0 1 0 1 0 0<br>0 0 0 0 0 1 0 0<br>0 0 0 1 0 0 0 0<br>0 0 0 0 0 0 1 0
+<br>0 0 1 0 0 1 0 0<br>0 1 0 0 0 0 0 0<br>0 0 0 0 0 0 0 0<br>7 2<br>3 5<br>3 1</td>
+<td>2<br><br><br><br><br><br><br><br><br><br><br><br></td>
+        </tr>
+        <tr>
+            <td>4 2<br>0 1 0 1<br>0 1 1 0<br>1 0 0 0<br>0 0 0 1<br>3 2<br>3 1</td>
+            <td>2<br><br><br><br><br><br><Br></td>
+        </tr>
+    </tbody>
+</table>
+
+***
+
