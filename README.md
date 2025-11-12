@@ -45,6 +45,7 @@ A apostila 2 consiste de 10 exercícios.
         6. [Exercício 6 - Caçando Pokémons](#caçando-pokémons)
         7. [Exercício 7 - Inventário Caótico](#inventário-caótico)
         8. [Exercício 8 - Vamos jogar um jogo](#vamos-jogar-um-jogo)
+        9. [Exercício 9 - Oxi véi, cadê a praia?](#oxi-véi-cadê-a-praia)
         
 # Exercícios
 ***
@@ -830,5 +831,38 @@ Seu programa deverá imprimir a quantidade de ocorrências de P em uma linha. Na
 |eu quero jogar um jogo jogando limpo<br>3 jog|3<br>SIM!|
 |xhuisyd xnzyxe nxnzzz zx x ify zzuzzzz z zjx<br>4 zz|6<br> NAO!|
 |eu adoro sao joao e eu amo suas comidas<br> 3 ua|3<br> SIM!|
+
+***
+
+## Oxi véi, cadê a praia?
+
+Você está desenvolvendo um programa de navegação marítima e exploração de ilhas. Você percebeu que o Dev responsável pelo mapa se esqueceu de um detalhe: as praias. Você precisa resolver esse problema criando um programa que transforma em praia aquilo que deveria ser praia.
+
+### Entrada
+
+A entrada será dada por um mapa de dimensões 10x10. Cada uma das 10 linhas de entrada possuirá 10 caracteres separados por espaços, sendo cada caractere ou '*' para representar a água ou 't' para representar a terra.
+
+### Saída
+
+O programa deve imprimir o mapa corrigido, transformando em praia 'p', todo pedaço de terra 't' que estiver em contato direto com a água '*', verticalmente ou horizontalmente. O que estiver fora do mapa não deve ser considerado como água.
+
+
+### Exemplos
+
+<style>
+    th{
+        font-family: arial
+    }
+    table {
+        font-family: 'Courier New', courier;
+        font-size: 16px;
+        font-weight: bold
+    }
+</style>
+
+| **Entrada** | **Saída** |
+|:------------|:----------|
+|* * * * * * * * * * <br>* * t t t t * * * * <br>* t t t t t t * * * <br>* * * * t t t t t * <br>* * * * * t t t t * <br>* * * * * t t t * * <br>* * * * t t t t * * <br>t t t t t t t t t * <br>t t t t t t t t * * <br>t t t t t * * * * *|* * * * * * * * * * <br>* * p p p p * * * * <br>* p p p t t p * * * <br>* * * * p t t p p * <br>* * * * * p t t p * <br>* * * * * p t p * * <br>* * * * p t t p * * <br>p p p p t t t t p * <br>t t t t t p p p * * <br>t t t t p * * * * *|
+|t * * * * * * * * t <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>* t t t t t t t t * <br>t * * * * * * * * t|p * * * * * * * * p<br>* p p p p p p p p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p t t t t t t p * <br>* p p p p p p p p * <br>p * * * * * * * * p|
 
 ***
