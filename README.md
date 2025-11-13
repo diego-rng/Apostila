@@ -6,6 +6,8 @@ A apostila 1 consiste de 26 exercícios.
 
 A apostila 2 consiste de 10 exercícios.
 
+A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
+
 # Índice
 
 <head>
@@ -80,6 +82,7 @@ A apostila 2 consiste de 10 exercícios.
         1. [Exercício 1 - Soma](#soma)
         2. [Exercício 2 - Operações](#operações)
         3. [Exercício 3 - Consumo Médio](#consumo-médio)
+        4. [Exercício 4 - Comissão](#comissão)
         
 # Exercícios
 ***
@@ -958,3 +961,7 @@ Faça um algorítmo que receba dois números e ao final mostre a soma, subtraç�
 Escrever um algorítmo para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
 
 ***
+
+## Comissão
+
+Escrever um algorítmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o seu nome, o salário fixo e salário no final do mês
