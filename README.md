@@ -76,6 +76,10 @@ A apostila 2 consiste de 10 exercícios.
         8. [Exercício 8 - Vamos jogar um jogo](#vamos-jogar-um-jogo)
         9. [Exercício 9 - Oxi véi, cadê a praia?](#oxi-véi-cadê-a-praia)
         10. [Exercício 10 - Batalha de Yavin](#batalha-de-yavin)
+    3. [Apostila 3](#apostila-3)
+        1. [Exercício 1 - Soma](#soma)
+        2. [Exercício 2 - Operações](#operações)
+        3. [Exercício 3 - Consumo Médio](#consumo-médio)
         
 # Exercícios
 ***
@@ -935,3 +939,22 @@ A saída consiste de apenas um inteiro que é o número de naves destruídas por
 
 ***
 
+# Apostila 3
+
+## Soma
+
+Faça um algorítmo que receba dois números e exiba o resultado da sua soma.
+
+***
+
+## Operações
+
+Faça um algorítmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos números lidos.
+
+***
+
+## Consumo Médio
+
+Escrever um algorítmo para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
+
+***
