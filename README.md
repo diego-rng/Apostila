@@ -88,6 +88,7 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         7. [Exercício 7 - Conversão](#conversão)
         8. [Exercício 8 - Cotação](#cotação)
         9. [Exercício 9 - Juros](#juros)
+        10. [Exercício 10 - Sem Juros](#sem-juros)
 
 # Exercícios
 ***
@@ -1002,5 +1003,11 @@ Elaborar um algorítmo que efetue a apresentação do valor da conversão em rea
 Faça um algorítmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.
 
 -- Considere fixo o juro da poupança em 0,70% a. m.
+
+***
+
+## Sem Juros
+
+A loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. Faça um algorítmo que receba um valor de uma compra e mostre o valor das prestações.
 
 ***
