@@ -85,7 +85,8 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         4. [Exercício 4 - Comissão](#comissão)
         5. [Exercício 5 - Média](#média)
         6. [Exercício 6 - Troca](#troca)
-        
+        7. [Exercício 7 - Conversão](#conversão)
+
 # Exercícios
 ***
 
@@ -979,5 +980,11 @@ Escrever um algorítmo que leia o nome de um aluno e as notas das três provas q
 ## Troca
 
 Ler dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.
+
+*** 
+
+## Conversão
+
+Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F = (9°C+160)/5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 
 *** 
