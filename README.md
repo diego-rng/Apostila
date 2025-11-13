@@ -87,6 +87,7 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         6. [Exercício 6 - Troca](#troca)
         7. [Exercício 7 - Conversão](#conversão)
         8. [Exercício 8 - Cotação](#cotação)
+        9. [Exercício 9 - Juros](#juros)
 
 # Exercícios
 ***
@@ -995,3 +996,11 @@ Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenh
 Elaborar um algorítmo que efetue a apresentação do valor da conversão em real (R\$) de um valor lido em dólar (US\$). O algorítmo deve solicitar o valor da cotação do dólar e também a quantidade de dólares disponíveis com o usuário.
 
 *** 
+
+## Juros
+
+Faça um algorítmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.
+
+-- Considere fixo o juro da poupança em 0,70% a. m.
+
+***
