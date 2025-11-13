@@ -86,6 +86,7 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         5. [Exercício 5 - Média](#média)
         6. [Exercício 6 - Troca](#troca)
         7. [Exercício 7 - Conversão](#conversão)
+        8. [Exercício 8 - Cotação](#cotação)
 
 # Exercícios
 ***
@@ -986,5 +987,11 @@ Ler dois valores para as variáveis A e B, e efetuar as trocas dos valores de fo
 ## Conversão
 
 Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F = (9°C+160)/5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+
+*** 
+
+## Cotação
+
+Elaborar um algorítmo que efetue a apresentação do valor da conversão em real (R\$) de um valor lido em dólar (US\$). O algorítmo deve solicitar o valor da cotação do dólar e também a quantidade de dólares disponíveis com o usuário.
 
 *** 
