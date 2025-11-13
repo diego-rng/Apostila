@@ -84,6 +84,7 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         3. [Exercício 3 - Consumo Médio](#consumo-médio)
         4. [Exercício 4 - Comissão](#comissão)
         5. [Exercício 5 - Média](#média)
+        6. [Exercício 6 - Troca](#troca)
         
 # Exercícios
 ***
@@ -974,3 +975,9 @@ Escrever um algorítmo que leia o nome de um vendedor, o seu salário fixo e o t
 Escrever um algorítmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre. No final informar o nome do aluno e a sua média (aritmética).
 
 ***
+
+## Troca
+
+Ler dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.
+
+*** 
