@@ -90,6 +90,7 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         9. [Exercício 9 - Juros](#juros)
         10. [Exercício 10 - Sem Juros](#sem-juros)
         11. [Exercício 11 - Vendas](#vendas)
+        12. [Exercício 12 - Fábrica](#fábrica)
         
 
 # Exercícios
@@ -1019,3 +1020,7 @@ A loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestaçõe
 Faça um algorítmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário.
 
 ***
+
+## Fábrica
+
+O custo do consumidor de um carro novo é a soma do custo de fábrica com a percentagem do distribuidor e dos impostos (aplicados, primeiro os impostos sobre o custo de fábrica e depois a percentagem do distribuidor sobre o resultado). Supondo que a percentagem do distribuidor seja de 28% e os impostos 45%. Escrever um algorítmo que leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo.
