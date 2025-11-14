@@ -89,6 +89,8 @@ A apostila 3 consiste de 13 exercícios (menores do que as outras 2 Apostilas).
         8. [Exercício 8 - Cotação](#cotação)
         9. [Exercício 9 - Juros](#juros)
         10. [Exercício 10 - Sem Juros](#sem-juros)
+        11. [Exercício 11 - Vendas](#vendas)
+        
 
 # Exercícios
 ***
@@ -1009,5 +1011,11 @@ Faça um algorítmo que receba um valor que foi depositado e exiba o valor com r
 ## Sem Juros
 
 A loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. Faça um algorítmo que receba um valor de uma compra e mostre o valor das prestações.
+
+***
+
+## Vendas
+
+Faça um algorítmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário.
 
 ***
